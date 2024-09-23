@@ -1,0 +1,21 @@
+/* .attachment-woocommerce_thumbnail{
+    display: none;
+} */
+
+.tpc_get_pro {
+	color: green;
+    font-weight: bold;
+}
+.tp-image-wrapper {
+	position: relative;
+}
+.tp-image-hover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity 0.5s ease-out;
+}
+.tp-image-hover:hover {
+	opacity: 1 !important;
+}
