@@ -4,7 +4,7 @@ Donate link: https://www.tplugins.com/
 Tags: product flipper image,woocommerce product flipper image,woocommerce product image flipper,woocommerce product gallery flipper
 Requires at least: 4.2
 Tested up to: 6.7.1
-Stable tag: 2.0.4
+Stable tag: 2.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -126,6 +126,10 @@ function your_function_name($default_image_size) {
 4. Pro Version thumbs mode change css (4/4)
 
 == Changelog ==
+
+= 2.0.5 - Update =
+* Update - WordPress 6.8.2 compatibility
+* Update - WooCommerce 10.1.2 compatibility
 
 = 2.0.4 - Update =
 * Update - WordPress 6.7.1 compatibility
