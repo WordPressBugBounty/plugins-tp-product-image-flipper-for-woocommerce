@@ -16,7 +16,7 @@
  * Plugin Name:       TP Product Image Flipper for Woocommerce
  * Plugin URI:        https://www.tplugins.com/
  * Description:       Flip between 2 images on product shop/category page.
- * Version:           2.0.6
+ * Version:           2.0.7
  * Requires at least: 4.2
  * Requires PHP:      5.6
  * Author:            TP Plugins
@@ -25,7 +25,7 @@
  * Text Domain:       tp-product-image-flipper-for-woocommerce
  * Domain Path:       /languages
  * WC requires at least: 3.0
- * WC tested up to: 10.4.2
+ * WC tested up to: 10.6.2
  */
 
 // If this file is called directly, abort.
@@ -38,7 +38,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'TP_PRODUCT_IMAGE_FLIPPER_FOR_WOOCOMMERCE_VERSION', '2.0.6' );
+define( 'TP_PRODUCT_IMAGE_FLIPPER_FOR_WOOCOMMERCE_VERSION', '2.0.7' );
 define( 'TP_PRODUCT_IMAGE_FLIPPER_PRO_URL', 'https://www.tplugins.com/product/tp-woocommerce-category-product-slider/' );
 define( 'TP_PRODUCT_IMAGE_FLIPPER_NAME', 'TP Product Image Flipper Settings' );
 
