@@ -2,9 +2,10 @@
 Contributors: tpplugins
 Donate link: https://www.tplugins.com/
 Tags: product flipper image, woocommerce product flipper image, woocommerce product image flipper, woocommerce product gallery flipper
-Requires at least: 4.2
-Tested up to: 6.9.4
-Stable tag: 2.0.7
+Requires at least: 6.0
+Tested up to: 7.1
+Requires PHP: 7.4
+Stable tag: 2.0.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -71,6 +72,7 @@ Create beautiful carousels anywhere on your site with shortcodes:
 * 100% mobile friendly
 * Compatible with most premium themes
 * Compatible with HPOS (High-Performance Order Storage)
+* Full PHP 8 support
 * Remove duplicate images: Ensures only plugin-generated images are shown
 * Images from gallery only: Use only gallery images for the flipper
 
@@ -172,6 +174,23 @@ function your_function_name($default_image_size) {
 
 == Changelog ==
 
+= 2.0.8 - Update =
+* Update - WordPress 7.1 compatibility
+* Update - WooCommerce 11.0.1 compatibility
+* Fix - Fatal error on PHP 8 when the shop loop hook runs without a product in context
+* Fix - Product links now come from the product object instead of the global post, fixing wrong links and PHP 8 notices in block themes
+* Fix - HPOS compatibility is now declared even when WooCommerce is network activated or installed in a custom folder
+* Fix - WooCommerce detection now works with network activated and custom folder installs
+* Fix - The stylesheet is now versioned, so browsers and caches pick up CSS changes
+* Fix - Products with a missing image file no longer output an empty image tag
+* Fix - The "Settings" and "Go Premium!" plugin action links are now translatable
+* Tweak - Full PHP 8 support, improved output escaping and settings sanitization
+* Tweak - Now requires PHP 7.4 and WordPress 6.0 or later
+
+= 2.0.7 - Update =
+* Update - WordPress 6.9.4 compatibility
+* Update - WooCommerce 10.6.2 compatibility
+
 = 2.0.6 - Update =
 * Update - WordPress 6.9 compatibility
 * Update - WooCommerce 10.4.2 compatibility
@@ -232,5 +251,5 @@ function your_function_name($default_image_size) {
 
 == Upgrade Notice ==
 
-= 2.0.6 =
-Compatibility update for WordPress 6.9 and WooCommerce 10.4.2. Recommended for all users.
+= 2.0.8 =
+Compatibility update for WordPress 7.1 and WooCommerce 11.0.1, with full PHP 8 support and several stability fixes. Recommended for all users.
